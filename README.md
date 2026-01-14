@@ -51,11 +51,22 @@ The editor recognizes all standard BBCode tags including:
 - Media: `[youtube]`, `[video]`
 - Special: `[spoiler]`, `[center]`, `[left]`, `[right]`
 
+## File Structure
+
+```
+bbcode-editor/
+├── index.html   - Main HTML structure
+├── style.css    - All styling and themes
+├── script.js    - Editor functionality and BBCode parsing
+└── README.md    - This file
+```
+
 ## Technical Details
 
 - **Pure HTML/CSS/JavaScript** - No dependencies or frameworks required
-- **Single file** - Everything contained in one HTML file for easy deployment
+- **Modular structure** - Separated into HTML, CSS, and JavaScript files for maintainability
 - **Modern browser required** - Uses ES6+ JavaScript features
+- **Transparent overlay technique** - The editor uses a transparent textarea overlaying syntax-highlighted text for seamless editing
 
 ## License
 
